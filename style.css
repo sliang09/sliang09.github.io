@@ -1,0 +1,10 @@
+.text{
+	float:left;
+	width: 48%;
+	padding: 1% ;
+}
+.pic{
+	float:right;
+	width: 48%;
+	padding: 1%;
+}

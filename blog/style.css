@@ -1,0 +1,59 @@
+body{
+	font-family: helvetica;
+	margin: 0 2% 0 2%;
+}
+#header{
+	float:top;
+	padding: 5px 0 0 0;
+}
+
+img {
+	display:block;
+}
+#topnav{
+	font-size: 20;
+	margin:70px 0 0 0;
+	float:right;
+
+}
+
+hr{
+	width:100%
+}
+
+
+p {
+margin:0 0 10px 0;
+padding:0;
+}
+
+h5 {
+margin: 0;
+padding:0;
+}
+
+h3 {
+margin: 0;
+padding:0 0 10px 0;
+}
+
+#sidenav{
+	width: 22%;
+	float: left;
+}
+
+#menu{
+	list-style-type: none;
+	font-weight: bold;
+	margin:20px 0 0 0;
+	padding:0;
+}
+
+#article{
+	width:70%;
+	float: right;
+	
+}
+footer{
+	clear:both;
+}
