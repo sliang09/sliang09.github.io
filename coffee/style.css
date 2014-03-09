@@ -1,13 +1,80 @@
+body{
+	width: 1024px;
+	margin:auto;
+	font-family: serif;
+}
+
+/*header style*/
+
+#banner{
+	background-image: url('beans.jpg');
+	background-repeat: no-repeat;
+	height: 280px;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+}
+
+.center{
+	background-color: #230B03;
+	height: 2em;
+	width: 100%;
+}
+
+#topnav{
+	display: table;
+	padding: .3em;
+	margin: 15px auto;
+	vertical-align: middle;
+}
+
+#topnav li {
+	display: inline-block;
+	list-style-type: none;
+	color: #CEBB99;	
+	padding: 0px;
+	margin-left: 20px;
+
+}
+
+a {
+	text-decoration: none;
+	color: #CEBB99;
+}
+
+/*end header style*/
+
+h2{
+	color: #3B2313;
+}
+
 .left{
 	float:left;
-	width: 50%;
+	width: 35%;
+	text-align: center;
+	padding:2% 2.5% 2% 12.5%;
 }
 
 .right{
 	float:right;
-	width: 50%;
+	width: 35%;
+	text-align: center;
+	padding: 2% 12.5% 2% 2.5%;
+}
+
+.footer{
+	clear:both;
+	background-color: #230B03;
+	height: 6em;
 }
 
 footer {
-	clear:both;
+	display: table;
+	color: #CEBB99;
+	text-align: center;
+	vertical-align: middle;
+	padding: 1.8em;
+	margin: auto;
 }
