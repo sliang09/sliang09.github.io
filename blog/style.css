@@ -2,58 +2,77 @@ body{
 	font-family: helvetica;
 	margin: 0 2% 0 2%;
 }
-#header{
-	float:top;
-	padding: 5px 0 0 0;
-}
 
 img {
-	display:block;
+	display: inline;
+	margin: 0px;
+	padding: 0px;
 }
-#topnav{
-	font-size: 20;
-	margin:70px 0 0 0;
-	float:right;
 
+.top{
+	display: inline;
+	height: 6em;
+}
+
+.topnav{
+	display: table;
+	padding: 4.4em 0px 0px;
+	float: right;
+	margin: 0px;
+}
+
+.topnav li{
+	display:inline-block;
+	list-style-type: none;
+	font-size: 20;
+	padding: 0px;
+	margin-left: .4em;
+	font-weight: bold;
+}
+
+a{
+	text-decoration: none;
+	color: black;
 }
 
 hr{
-	width:100%
+	width:100%;
+	margin: 0px;
 }
 
-
-p {
-margin:0 0 10px 0;
-padding:0;
-}
-
-h5 {
-margin: 0;
-padding:0;
-}
-
-h3 {
-margin: 0;
-padding:0 0 10px 0;
-}
-
-#sidenav{
-	width: 22%;
+.sidenav{
+	width: 20%;
 	float: left;
 }
 
-#menu{
+.menu{
 	list-style-type: none;
 	font-weight: bold;
-	margin:20px 0 0 0;
+	margin: 3em 0 0 0;
+	padding: 0;
+}
+
+.article{
+	width:70%;
+	float: right;	
+	margin: 3em 0px;
+}
+p {
+	margin:0 0 10px 0;
 	padding:0;
 }
 
-#article{
-	width:70%;
-	float: right;
-	
+h5 {
+	margin: 0;
+	padding:0;
 }
+
+h3 {
+	margin: 0;
+	padding:0 0 10px 0;
+	text-transform: uppercase;
+}
+
 footer{
 	clear:both;
 }
