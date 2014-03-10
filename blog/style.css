@@ -36,8 +36,12 @@ a{
 }
 
 hr{
-	width:100%;
-	margin: 0px;
+	border: 0;
+	color: #999999;
+	background-color: #999999;
+	height: 2px;
+	width: 100%;
+	margin: 0;
 }
 
 .sidenav{
@@ -49,13 +53,17 @@ hr{
 	list-style-type: none;
 	font-weight: bold;
 	margin: 3em 0 0 0;
-	padding: 0;
+	padding: 0px;
+}
+
+.menu li{
+	padding-bottom: 1em;
 }
 
 .article{
 	width:70%;
 	float: right;	
-	margin: 3em 0px;
+	margin: 3em 0;
 }
 p {
 	margin:0 0 10px 0;
@@ -75,4 +83,5 @@ h3 {
 
 footer{
 	clear:both;
+	margin-top: 5px;
 }
