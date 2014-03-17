@@ -23,14 +23,14 @@ body{
 	width: 100%;
 }
 
-#topnav{
+.topnav{
 	display: table;
 	padding: .3em;
 	margin: 15px auto;
 	vertical-align: middle;
 }
 
-#topnav li {
+.topnav li {
 	display: inline-block;
 	list-style-type: none;
 	color: #CEBB99;	
