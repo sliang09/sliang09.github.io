@@ -1,0 +1,57 @@
+body{
+  background: url('http://www.mentormob.com/images/mobBackgrounds/Photography-Kneeling2.jpg') no-repeat center;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1{
+  font-size:126px;
+  text-align: center;
+  color: white;
+  font-family: 'Lobster', cursive;
+}
+
+#gallery{
+  width:712px;
+  margin: auto;
+}
+.circle{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  background: rgba(255, 255, 255, 0.2);
+  display: inline-block;
+  margin: 20px 20px 0 0;
+  border: 2px dashed rgba(255, 255, 255, 0.8);
+  float: left;
+}
+
+.circle:hover{
+  background-image: url('http://svedesign.com/tmp/icon_38570.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 50%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+footer{
+  clear:both;
+  text-align: center;
+  font-size: 21;
+  font-family: 'Lobster', cursive;
+  margin: 80px auto;
+}
+
+@media screen and (max-width: 712px){ 
+ #gallery{
+    width:368px;
+    margin: auto;
+  }
+
+  h1{
+    font-size: 56px;
+  }
+}
+ 
